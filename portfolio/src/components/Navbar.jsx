@@ -8,8 +8,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full z-50 backdrop-blur-sm bg-transparent border-b border-white/10 px-9 py-11 font-inter">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="w-full z-50  bg-transparent border-b border-white/10 px-9 pt-11 font-inter">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0  font-bold text-black ">
@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="#work" className="hover:text-blue-400 transition">WORK</a>
             <a href="#about" className="hover:text-blue-400 transition">ABOUT</a>
             <a href="#archive" className="hover:text-blue-400 transition">ARCHIVE</a>
-            <a href="#contact" className="hover:text-blue-400 transition">CONTACT</a>
+            <a href="#contact" className="hover:text-blue-400 transition ">CONTACT</a>
           </div>
 
           {/* Mobile Menu Button */}
