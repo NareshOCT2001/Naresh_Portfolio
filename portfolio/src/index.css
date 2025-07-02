@@ -4,6 +4,8 @@
 
 @theme {
   --font-inter: "Inter" , "sans-serif"; 
+    --text-tiny: 1.3rem; 
+
 }
 
 

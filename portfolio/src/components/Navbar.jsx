@@ -8,12 +8,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full z-50  bg-transparent border-b border-white/10 px-9 pt-11 font-inter">
+    <nav className="z-50  bg-transparent border-b border-white/10 px-9 pt-11 font-inter">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex-shrink-0  font-bold text-black ">
-            NARESH KUMAR K
+          <div className="flex-shrink-0  font-semibold text-black  ">
+            ✸ NARESH KUMAR K
           </div>
 
           {/* Desktop Menu */}
